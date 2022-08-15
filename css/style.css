@@ -20,7 +20,7 @@ ul{
 .container{
     max-width: 1376px;
     width: 100%;
-    margin: 0 auto;
+    margin:  auto;
     padding: 0 12px;
 }
 
@@ -40,7 +40,59 @@ ul{
 
 /* guide start */
 
+.container {
+    max-width: 1376px;
+    width: 100%;
+    margin:  auto;
+    padding: 0 12px;
+}
+.guide__content {
+    text-align: center;
+}
+ 
+.guide__card {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.guide__title {
+    max-width: 465px;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #692340;
+    
 
+}
+.guide__text {
+    max-width: 661px;    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #692340;
+
+}
+ 
+.guide__card-title {
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+color: #692340;
+}
+.guide__card-content{
+max-width: 429px;
+}
+.guide__card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #692340;
+}
 
 
 /* guide end */
